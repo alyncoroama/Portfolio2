@@ -1,0 +1,131 @@
+.firstpage {
+    background-color: peru;
+    height: 670px;
+    width: 550px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+.content {
+    width: 950px;
+    background: #f9f9f9;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15%;
+    font-family: fantasy;
+    color: black;
+}
+
+.parallax {
+    background: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin: 10px -10px 10px -10px;
+
+}
+
+.parallax1 {
+    background: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin: 10px -10px 10px -10px;
+ }
+
+.parallax2 {
+    background: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_2450,w_4368,x_0,y_165/f_auto,q_auto,w_1100/v1562080363/shape/mentalfloss/29942-gettyimages-155302141.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin: 10px -10px 10px -10px;
+ }
+
+h3 {
+    font-size: 6.5em;
+    text-align: center;
+    padding-top: 9%;
+    color: white;
+    margin: 0;
+}
+
+h1{
+    font-size: 5em;
+    margin: 0px;
+    color:black;
+    margin-left: 130%;
+    margin-top: -120%;
+  
+}
+h2 {
+    font-size: 1.7em;
+    margin: 0px;
+    color:orange;
+    margin-top: 5%;
+    margin-left: 50%;
+    text-align: center;
+    position:absolute;
+    text-align:center;
+    left:130px;
+    width:300px;
+}
+
+.fpimg {
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+
+h4{
+    padding-top: 5%;
+    font-size: 1.5em;
+    margin: 0px;
+    
+} a{
+    text-decoration: none;
+    color:orange;
+}
+
+.github {
+    width: 12%;
+}
+
+.p1 {
+    padding-top: 5%;
+    font-size: 1.2em;
+}
+
+.icon {
+    width: 9%;
+}
+
+.icon1{
+    width: 7.5%;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .parallax, .parallax1, .parallax2 {
+    width: 330%;
+    }
+    
+    .content {
+        margin-left: 30%;
+    }
+    
+    h1 {
+        margin-left: 125%;
+    }
+    
+    h2 {
+        margin-left: 127%;
+    }
+}
